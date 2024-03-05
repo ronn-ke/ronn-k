@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronn Software Solutions</title>
+    <style>
+        /* Add your CSS styles here */
+        .fullscreen {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .body-one {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .column {
+            flex: 50%;
+            padding: 0 10px;
+        }
+        .column img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="fullscreen">
+    <fieldset class="header">
+        <h1>Ronn Software Solutions</h1>
+        <navigation class="nav">
+            <a href="#">Home</a>
+            <a href="./About.html">About</a> <!-- Assuming About.html is the file for About component -->
+        </navigation>
+    </fieldset>
+    <fieldset class="body-one">
+        <p>
+            We are among the Best Software Companies within<br>
+            the country Dedicated in giving Our customers<br>
+            with best quality assured services.<br><br>
+            Our services are available 24/7 country-wide and
+            internationally<br>
+            Reach us at anytime, anywhere for anything technologically wise<br>
+            Believing in that Tech to put a smile on our customers.<br>
+        </p>
+        <a href="./About.html">
+            <button>Find More</button>
+        </a>
+        <div class="row">
+            <div class="column">
+                <img src="pict.jpeg" alt="Image 1">
+            </div>
+            <div class="column">
+                <img src="pictu.jpg" alt="Image 2">
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="footer">
+        <h2>RONN SOFTWARE SOLUTION</h2>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Ronnsoftwares.com</p>
+    </fieldset>
+</div>
+
+</body>
+</html>
