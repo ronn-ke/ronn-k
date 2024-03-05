@@ -1,0 +1,70 @@
+fieldset.headerb{
+    height: 100px;
+    width: 1300px;
+    background-color: rgb(26, 65, 71);
+    text-align: center;
+    border: none;
+}
+fieldset.headerb h1{
+    color: goldenrod;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navb a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navb a:hover{
+    color: aqua;
+    transition: 0.6s;
+}
+fieldset.body-two{
+    width: 1300px;
+    height: 500px;
+    background-color: gray;
+    border: none;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    margin-left: 100px;
+}
+h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: rgb(26, 65, 71);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    padding-top: 20px;
+}
+fieldset.footerb{
+    width: 1300px;
+    height: 200px;
+    border: none;
+    background-color: #d9d9d9;
+}
+fieldset.footerb h1{
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: #242424;
+}
+fieldset.footerb h3{
+    color: rgb(26, 65, 71);
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 95, 170);
+    font-size: 1em;
+}

@@ -1,0 +1,72 @@
+fieldset.header{
+  height: 100px;
+  width: 1300px;
+  text-align: center;
+ border: none;
+ background-color: rgb(26, 65, 71);
+}
+fieldset.header h1{
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+  font-weight: 100;
+}
+.nav a:hover{
+  color: goldenrod;
+  transition: 0.6s;
+}
+fieldset.body-one{
+  width: 1300px;
+  height: 550px;
+ background-color: gray;
+ border: none;
+}
+fieldset.body-one p{
+  font-size: 1.3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(100, 44, 7);
+  padding-top: 10px;
+  font-weight: 50;
+}
+button{
+  height: 35px;
+  width: 105px;
+  background-color: rgb(26, 65, 71);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 250px;
+  border-radius: 20px;
+}
+button:hover{
+  background-color: goldenrod;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.row{
+  display: flex;
+}
+.column{
+  margin-left: 100px;
+}
+fieldset.footer{
+  text-align: center;
+  background-color: #d9d9d9;
+  height: 90px;
+  width: 1300px;
+  color: rgb(26, 65, 71);
+ border: none;
+}
+fieldset.footer h2{
+  color: rgb(26, 65, 71);
+}
+fieldset.footer p{
+  color: rgb(26, 65, 71);
+}
